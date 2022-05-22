@@ -299,9 +299,7 @@ ${chalk.blue.italic('🇱🇰 Try To Login WhatsApp... Please Wait...')}`);
          
          return;
          }
-        
-        throw new Error(newupdatechanger);
-        return;
+       
         // ==================== End Check ====================
         // ==================== External Plugins ====================
         var plugins = await plugindb.PluginDB.findAll();
@@ -855,4 +853,5 @@ ${chalk.blue.italic('🇱🇰 Try To Login WhatsApp... Please Wait...')}`);
 }
 
 sewQueen();
+
 
